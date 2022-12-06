@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(./Pictures/world_destroyed.webp);
-    /* background-image: url("/milky-way-2_square.webp");  */
+    
     
 }
 
@@ -38,7 +38,7 @@ h1 {
     position: relative;
     top: 440px;
     left: 190px;
-    z-index: 100000;
+    z-index: 100000; /* makes sure that the ball always stays on top. */
 
 }
 
